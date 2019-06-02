@@ -1,0 +1,19 @@
+<center>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <a class="card" style="<%if(req.path === '/viewChallenge') {%>background-color: #eee;<%}%>color: #666; padding:0.5em 1em" href="/viewChallenge">View all Challenges</a>
+      </div>
+      <div class="col-sm">
+        <a class="card" style="<%if(req.path === '/addChallenge') {%>background-color: #eee;<%}%>color: #666; padding:0.5em 1em" href="/addChallenge">Add Challenge</a>
+      </div>
+      <div class="col-sm">
+        <a class="card" style="<%if(req.path === '/sentChallenge') {%>background-color: #eee;<%}%>color: #666; padding:0.5em 1em" href="/sentChallenge">Challenges Sent</a>
+      </div>
+      <div class="col-sm">
+        <a class="card" style="<%if(req.path === '/receivedChallenge') {%>background-color: #eee;<%}%>color: #666; padding:0.5em 1em" href="/receivedChallenge">Challenges Received</a>
+      </div>
+
+    </div>
+  </div>
+</center>
