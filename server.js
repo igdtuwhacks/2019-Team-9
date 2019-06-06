@@ -275,7 +275,8 @@ app.get('/selCourseStudent/:id', isLearnerLoggedIn, function(req, res, next) {
                 service: 'sendGrid',
                 auth: {
                     user: 'apikey',
-                    pass: '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'
+			// Key here
+                    pass: '------------------------------------------------'
                 }
             });
             var mailOptions = {
@@ -313,7 +314,8 @@ app.get('/selectOrgTeacher/:id', isTrainerLoggedIn, function(req, res, next) {
                 service: 'sendGrid',
                 auth: {
                     user: 'apikey',
-                    pass: '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'
+			// Key here
+                    pass: '------------------------------------'
                 }
             });
             var mailOptions = {

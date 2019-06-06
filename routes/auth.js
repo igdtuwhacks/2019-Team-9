@@ -106,7 +106,8 @@ router.post('/forgot', function(req, res, next) {
                 service: 'SendGrid',
                 auth: {
                     user: 'apikey',
-                    pass: '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'
+			//KEY HERE
+                    pass: '------------------------------------------------------'
                 }
             });
             var mailOptions = {
@@ -168,7 +169,8 @@ router.post('/reset/:token', function(req, res, next) {
                 service: 'SendGrid',
                 auth: {
                     user: 'apikey',
-                    pass: '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'
+			//Key HERE
+                    pass: '----------------------------------------'
                 }
             });
             var mailOptions = {
